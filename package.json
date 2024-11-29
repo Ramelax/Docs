@@ -1,0 +1,23 @@
+{
+  "name": "astro-starlight-demo",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.29.2",
+    "@astrojs/starlight-tailwind": "^2.0.3",
+    "@astrojs/tailwind": "^5.1.2",
+    "@iconify-json/mdi": "^1.2.1",
+    "astro": "^4.16.10",
+    "astro-icon": "^1.1.4",
+    "lucide-static": "^0.462.0",
+    "sharp": "^0.32.5",
+    "tailwindcss": "^3.4.15"
+  }
+}

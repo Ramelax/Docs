@@ -1,0 +1,56 @@
+---
+title: Welcome to Ramelax
+description: A new asset class for Crypto Investors.
+template: splash
+hero:
+  tagline: Invest in Latin America through blockchain-powered tokenized stocks and bonds with automatic dividend distribution
+  actions:
+    - text: Getting Started
+      link: /introduction/what-is-ramelax/
+      icon: right-arrow
+---
+
+import { Icon } from "@astrojs/starlight/components";
+
+<div class="grid grid-cols-1 md:grid-cols-2 xs:grid-cols-1 gap-10 p-6 lg:mt-10 md:mt-5">
+  <a
+    href="/introduction/what-is-ramelax/"
+    class="p-6 bg-gray-800  hover:text-white rounded-lg shadow-md no-underline hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+    aria-label="Navigate to introduction"
+  >
+  <div class="flex gap-10 items-center">
+      <h3 class="text-xl font-semibold mb-2">Welcome to Ramelax</h3>
+      <Icon name="rocket" class="text-green-500 size-8" />
+    </div>
+    <p class="text-gray-300">This is a description for Card 2.</p>
+  </a>
+
+  <a
+    href="/introduction/how-it-works"
+    class="block p-6 bg-gray-800 hover:bg-green-500 hover:text-white rounded-lg no-underline shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+    aria-label="Navigate to Page 2"
+  >
+    <div class="flex gap-10 items-center">
+      <h3 class="text-xl font-semibold mb-2">How it works</h3>
+      <Icon name="starlight" class="text-green-500 size-8" />
+    </div>
+    <p class="text-gray-300">This is a description for Card 2.</p>
+  </a>
+  <a
+    href="/asset-types/stocks"
+    class="block p-6 bg-gray-800 hover:bg-green-500 hover:text-white rounded-lg no-underline shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+    aria-label="Navigate to Page 3"
+  >
+    <h3 class="text-xl font-semibold mb-2">Getting started with Stocks</h3>
+    <Icon name="" />
+    <p class="text-gray-300">This is a description for Card 3.</p>
+  </a>
+  <a
+    href="/legal-compliance/terms-of-service"
+    class="block p-6 bg-gray-800 hover:bg-green-500 hover:text-white rounded-lg no-underline shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300"
+    aria-label="Navigate to Page 4"
+  >
+    <h3 class="text-xl font-semibold mb-2">Terms of Service</h3>
+    <p class="text-gray-300">This is a description for Card 4.</p>
+  </a>
+</div>
