@@ -9,9 +9,13 @@ export default defineConfig({
         title: 'Ramelax',
 		customCss: [
 			'./src/tailwind.css',
+            './src/styles/custom.css',
 		  ],
         logo: {
-            src: './src/assets/Ramelax_logo.png'
+            src: './src/assets/Ramelax_logo.png',
+        },
+        components: {
+            ThemeSelect: './src/components/Theme.astro',
         },
         
         sidebar: [

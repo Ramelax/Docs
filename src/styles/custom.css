@@ -1,0 +1,11 @@
+:root {
+    --sl-color-text-accent: #4ADE80;
+}
+
+.site-title:where(.astro-m46x6ez3) {
+    color: white;
+}
+
+/* .astro-3ii7xxms:active {
+    color: white;
+} */
