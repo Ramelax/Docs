@@ -3,40 +3,12 @@ title: Welcome to Ramelax
 description: A new asset class for Crypto Investors.
 template: splash
 hero:
-  tagline: Invest in Latin America through blockchain-powered tokenized stocks and bonds with automatic dividend distribution
+  tagline: You're been redirected to the home page
   actions:
-    - text: Getting Started
-      link: /introduction/what-is-ramelax/
-      icon: right-arrow
+    - text: Redirecting...
+      link: https://ramelax.com
 ---
 
+import Redirect from '/src/components/Redirect.astro';
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
-
-
-<div class="" >
-
-<script type="text/javascript">
-            window.location.href = "http://example.com"
-</script>
-
-  <CardGrid stagger>
-    <Card title="Welcome to Ramelax" icon="open-book" >
-      Ramelax is the first platform in Argentina to bring asset tokenization to a global audience.
-      <LinkCard title="Introduction" href="/introduction/what-is-ramelax/" class="hover:bg-green-500" />
-    </Card>
-    <Card title="How it Works" icon="information">
-      Each asset on Ramelax is fully backed by real-world holdings, 
-      stored securely with our licensed custodian partners.
-      <LinkCard title="How it Works" href="/introduction/how-it-works/" />
-    </Card>
-    <Card title="Getting Started With Stocks" icon="seti:pipeline">
-      Through tokenized stocks, investors gain direct exposure to Argentina’s vibrant corporate sector.
-      <LinkCard title="Stocks" href="/asset-types/stocks/" />
-    </Card>
-    <Card title="Terms of Service" icon="seti:license">
-      At Ramelax, we prioritize compliance with all relevant regulatory standards.
-      <LinkCard title="Legal Compliance" href="/legal-compliance/terms-of-service/" />
-    </Card>
-  </CardGrid>
-</div>
+<Redirect />
